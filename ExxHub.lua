@@ -1,5 +1,5 @@
-if game.CoreGui:FindFirstChild("KiA_Hub") then
-    game.CoreGui:FindFirstChild("KiA_Hub"):Destroy()
+if game.CoreGui:FindFirstChild("ExxHub") then
+    game.CoreGui:FindFirstChild("ExxHub"):Destroy()
 end
 
 local SOMEXHUBMODILE = Instance.new("ScreenGui")
@@ -7,7 +7,7 @@ local MODILEGUISOMEXHUB = Instance.new("TextButton")
 local MODILEGUISOMEXHUBHUI = Instance.new("UICorner")
 local MODILEMAGE = Instance.new("ImageLabel")
 
-SOMEXHUBMODILE.Name = "KiA_Hub"
+SOMEXHUBMODILE.Name = "EXXHUB"
         SOMEXHUBMODILE.Parent = game.CoreGui
         SOMEXHUBMODILE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -18,7 +18,7 @@ SOMEXHUBMODILE.Name = "KiA_Hub"
         MODILEGUISOMEXHUB.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
         MODILEGUISOMEXHUB.Size = UDim2.new(0, 50, 0, 50)
         MODILEGUISOMEXHUB.Font = Enum.Font.SourceSans
-        MODILEGUISOMEXHUB.Text = "X"
+        MODILEGUISOMEXHUB.Text = "Open/Close"
         MODILEGUISOMEXHUB.TextColor3 = Color3.fromRGB(255, 255, 255)
         MODILEGUISOMEXHUB.TextSize = 14.000
         MODILEGUISOMEXHUB.Draggable = true
